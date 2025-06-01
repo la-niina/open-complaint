@@ -11,5 +11,18 @@
   "observability": {
     "enabled": true
   },
-  "placement": { "mode": "smart" }
+  "placement": { "mode": "smart" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "open-complaint",
+      "database_id": "c79fd29f-a9db-4624-aee8-149a0ecfa529"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "bucket_name": "open-complaint",
+      "binding": "open_complaint"
+    }
+  ]
 }
